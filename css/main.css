@@ -15,7 +15,7 @@ body{ height: 100%; margin: 0;
 	color: #222222;
 }
 
-.side-menu{
+#side-menu{
 	float: left;
 	width: 200px;
 	border-right: 2px solid #2f5d3a;
@@ -24,14 +24,14 @@ body{ height: 100%; margin: 0;
 	overflow: hidden;
 }
 
-.side-menu a {
+#side-menu a {
 	padding: 12px;
 	color: #1f3d27;
 	display: block;
 	text-decoration: none;
 }
 
-.side-menu a:hover {
+#side-menu a:hover {
 	background-color: #4f8a5b;
 	color: $ffffff;
 }
