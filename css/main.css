@@ -15,6 +15,25 @@ body{ height: 100%; margin: 0;
 	color: #222222;
 }
 
+.side-menu{
+	float: left;
+	width: 200px;
+	border-right: 2px solid #2f5d3a;
+	background-color: #dfeee3;
+	height: 100%;
+	overflow: hidden;
+}
 
+.side-menu a {
+	padding: 12px;
+	color: #1f3d27;
+	display: block;
+	text-decoration: none;
+}
+
+.side-menu a:hover {
+	background-color: #4f8a5b;
+	color: $ffffff;
+}
 
 
