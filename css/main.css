@@ -25,6 +25,35 @@ header {
 	color: #ffffff;
 	padding: 16px;
 }
+
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6{
+	border-bottom: 1px solid #4f8a5b;
+	border-left: 6px solid #4f8a5b;
+	padding-left: 16px;
+	margin-left: 8px;
+}
+
+section p {
+	margin-left: 20px:
+}
+
+footer { 
+	background-color: #2f5d3a;
+	color: #ffffff;
+	padding: 16px;
+}
+
+footer ul{ 
+	list-style: none;
+	margin: auto;
+	width: 60%;
+}
+
 #side-menu{
 	float: left;
 	width: 200px;
