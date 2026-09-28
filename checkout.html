@@ -28,42 +28,43 @@
 					<fieldset>
 						<legend>Shipping Details</legend>
 						<label for="name">Name:</label>
-						<input type="text" id="name" name="name"> 
+						<input type="text" id="name" name="name" required> 
 
 						<label for="addr1">Address 1:</label>
-						<input type="text" id="addr1" name="addr1">
+						<input type="text" id="addr1" name="addr1" required>
 						<label for="addr2">Address 2:</label>
 						<input type="text" id="addr2" name="addr2">
 						<label for="city">City:</label>
-						<input type="text" id="city" name="city">
+						<input type="text" id="city" name="city" required>
 						<label for="state">State:</label>
-						<input type="text" id="state" name="state">
+						<input type="text" id="state" name="state" required>
 						<label for="zcode">Zip Code:</label>
-						<input type="text" id="zcode" name="zcode">
+						<input type="text" id="zcode" name="zcode" pattern="^(?(^00000(|-0000))|(\d{5}(|-\d{4})))$" required>
 						<label for="phone">Phone:</label>
-						<input type="tel" id="phone" name="phone">
+						<input type="tel" id="phone" name="phone" required>
 						<label for="email">Email:</label>
-						<input type="text" id="email" name="email">
+						<input type="text" id="email" name="email" required>
 					</fieldset>
 
 					<fieldset>
 						<legend>Payment Details</legend>
 						
 						<label for="card name">Name On Card:</label>
-						<input type="text" id="card name" name="card name">
+						<input type="text" id="card name" name="card name" required>
 									
 						<label for="cardnum">Card Number:</label>
-						<input type="text" id="cardnum" name="cardnum" inputmode="numeric">
+						<input type="text" id="cardnum" name="cardnum" pattern="^[0-9- ]{13,19}$" required>
 						
 						<label for="expiration">Exp Date:</label>
-						<input type="month" id="expiration" name="expiration">
+						<input type="month" id="expiration" name="expiration" required>
 						
 
 						<label for="ccv">CCV:</label>
-						<input type="ccv" id="ccv" name="ccv" inputmode="numeric" maxlength="3">
+						<input type="ccv" id="ccv" name="ccv" maxlength="3" required>
 						
 
 					</fieldset>
+					<button type="purchase">Purchase</button>
 			</section>
 			<footer>
 				<ul>
