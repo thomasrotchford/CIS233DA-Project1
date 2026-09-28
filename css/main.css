@@ -1,5 +1,4 @@
 /*
-
 Thomas Rotchford
 CIS233DA
 27491
@@ -76,4 +75,46 @@ footer ul{
 	color: $ffffff;
 }
 
+form { min-height: 500px; 
+	min-width: 830px;
+	padding: 10px;
+}
+
+fieldset { 
+	margin: 5px 10px;
+	width: 40px;
+	float: left;
+	padding: 15px;
+}
+
+legend{ 
+	font-weight: bold;
+}
+
+label{ 
+	display: block;
+	font-weight: bold;
+	margin: 8px;
+}
+
+input { 
+	display: block;
+	margin 5px 0 5px 20px;
+	width: 300px;
+	padding: 6px;
+}
+
+button { 
+	margin 8px 16px;
+	margin-left: 50px;
+	background-color: #2f5d3a;
+	color: #ffffff;
+	border: 1px solid #1f3d27;
+	padding: 8px 16px;
+}
+
+button:hover{
+	background-color: #ffffff;
+	color: #2f5d3a;
+}
 
