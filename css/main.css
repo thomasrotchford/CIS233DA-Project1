@@ -14,7 +14,17 @@ body{ height: 100%; margin: 0;
 	font-size: 16px;
 	color: #222222;
 }
-
+main {
+	width: calc(100% - 202px);
+	float: left;
+	padding: 0;
+}
+header {
+	background-color: #2f5d3a;
+	text-align: center;
+	color: #ffffff;
+	padding: 16px;
+}
 #side-menu{
 	float: left;
 	width: 200px;
